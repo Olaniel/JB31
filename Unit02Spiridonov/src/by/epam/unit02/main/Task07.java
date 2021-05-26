@@ -9,7 +9,7 @@ public class Task07 {
 		b = -10 + (int)(Math.random() * (10 - (-10) + 1));
 		c = -10 + (int)(Math.random() * (10 - (-10) + 1));
 
-		if (a > 0)
+		if (a > 0)// code convention - пне опускаем {}, даже если синтаксически это допустимо
 			a1 =(int) Math.pow(a, 2);
 		else
 			a1 = (int)Math.pow(a, 4);
