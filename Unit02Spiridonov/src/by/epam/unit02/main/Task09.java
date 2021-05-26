@@ -8,11 +8,11 @@ public class Task09 {
 
 		x = -10 + (int)(Math.random() * (10 - (-10) + 1));
 		
-		if (x <= -3)
+		if (x <= -3)// code convention
 			result = 9;
 		else
 			result = 1 / (Math.pow(x, 2) + 1);
 
 		System.out.println("x = " + x + "; result = " + result);
-	}
+	}// Молодец
 }
